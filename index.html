@@ -1,0 +1,43 @@
+<!-- Hien Nguyen 
+     CIS 255
+     HW4 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>TVA</title>
+</head>
+<body>
+    <header id ="title">
+        <p>Time Variance Authority (TVA)
+
+        </p> 
+        <p>Analytics Division
+        </p>
+    </header>
+    <main>
+        <div id="userInput">
+            <label>Border Character</label>
+            <input type="text" name="borderChar" id="borderChar" placeholder="Please enter the border character">
+            <label>Inner Character</label>
+            <input type="text" name="innerChar" id="innerChar" placeholder="Please enter the inner character">
+            <button onclick="display()" class = "command_btn" id ="displayBtn">Display!</button>
+        </div>
+        <div id="interactive_buttons">
+            <button onclick="next()" class = "command_btn" id="nextBtn">Next</button>
+            <button onclick="previous()" class = "command_btn" id="previousBtn">Previous</button>            
+            <button onclick="nexus()" class = "command_btn" id="nexusBtn">Nexus</button>
+
+        </div>
+        <div id ="result">
+        </div>
+    </main>
+    
+    
+   
+</body>
+</html>

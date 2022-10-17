@@ -1,0 +1,50 @@
+/*  Hien Nguyen 
+    CIS 255
+    HW4 */
+body{
+    /* set the background color for the body */
+    background-color:black;
+    color:white;
+    /* define the font for the body */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
+    margin:0
+}
+
+/* change the padding for next, previous, and nexus button */
+#interactive_buttons{
+    padding: 1.5rem;
+}
+
+/* change some properties for each command button (next, display, nexus, and previous */
+.command_btn{
+    border: 0.05rem solid;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+/* change the background-color and the cursor to pointer when we hover through the buttons */
+.command_btn:hover{
+    background-color:rgb(190, 164, 238);
+    color: black;
+    cursor: pointer;
+    
+}
+
+#result{
+    padding-top: 2rem;
+    /* set text-align to justify while others in body has text-align:center */
+    text-align: justify;
+    margin-left:40%;
+    font-size: 1rem;
+}
